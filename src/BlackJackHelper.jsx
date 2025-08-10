@@ -491,7 +491,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="mt-6 text-xs text-gray-400">
+        <div className="mt-6 text-xs text-gray-400 text-center">
           This app implements canonical single-deck basic strategy and adds
           common table rule toggles. It is intended as a companion for RDR2
           story-mode play.
