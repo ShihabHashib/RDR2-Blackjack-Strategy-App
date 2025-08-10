@@ -282,7 +282,7 @@ export default function App() {
   }, [hands, dealerUp, rules]);
 
   return (
-    <div className="elative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100 flex flex-col items-center p-6 overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100 flex flex-col items-center p-6 overflow-hidden">
       <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-purple-500/30 rounded-full blur-[160px]"></div>
       <div className="absolute top-40 -right-40 w-[400px] h-[400px] bg-blue-500/20 rounded-full blur-[160px]"></div>
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-green-500/10 rounded-full blur-[200px]"></div>
